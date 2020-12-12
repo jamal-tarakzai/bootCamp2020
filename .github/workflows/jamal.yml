@@ -28,7 +28,7 @@ jobs:
         with:
           version: 12
       - name: Github Action for npm
-        uses: Borales/actions-npm@v2-beta
+        uses: Borales/actions-npm@2.1.0
         with:
           #yarn command
           cmd: install #NPN INSTALL/YARN INSTALL
